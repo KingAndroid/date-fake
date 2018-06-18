@@ -1,0 +1,112 @@
+.rangeslider,
+.rangeslider__fill {
+  display: block;
+  /* -moz-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3);
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; */
+}
+
+.rangeslider {
+  /* background: #fff; */
+  background: url('../images/height_black.png');
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 0 auto;
+}
+
+.rangeslider--horizontal {
+  height: 316px;
+  width: 100%;
+}
+
+.rangeslider--vertical {
+  width: 64px;
+  min-height: 228px;
+  max-height: 100%;
+}
+
+.rangeslider--disabled {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+  opacity: 1;
+}
+
+.rangeslider__fill {
+  /* background: #fff; */
+  position: absolute;
+}
+.rangeslider--horizontal .rangeslider__fill {
+  top: 0;
+  height: 100%;
+}
+.rangeslider--vertical .rangeslider__fill {
+  bottom: 0;
+  width: 100%;
+}
+
+.rangeslider__handle {
+  background: -webkit-linear-gradient(#8e25c4, #ff237b);  
+  cursor: pointer;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.rangeslider__handle:after {
+	content: "";
+	display: block;
+	width: 32px;
+	height: 4px;
+	margin: auto;
+	position: absolute;
+	top: 2px;
+	bottom: 0;
+	left: -31px;
+	background: -webkit-linear-gradient(#8e25c4, #ff237b);  
+}
+.rangeslider__handle:before {
+	content: '5.4';
+    height: 40px;
+    width: 70px;
+    background-color: #fff;
+    border: 1px solid;
+    padding: 7px;
+    box-shadow: 0px 0px 7px #000;
+    position: absolute;
+    left: 49px;
+    top: -7px;
+    color: #ac24b1;
+    font-size: 16px;
+    border: 0;
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+.rangeslider__handle:active, .rangeslider--active .rangeslider__handle {
+
+}
+.rangeslider--horizontal .rangeslider__handle {
+  top: -10px;
+  touch-action: pan-y;
+  -ms-touch-action: pan-y;
+}
+.rangeslider--vertical .rangeslider__handle {
+  right: -55px;
+  touch-action: pan-x;
+  -ms-touch-action: pan-x;
+}
+
+input[type="range"]:focus + .rangeslider .rangeslider__handle {
+  -moz-box-shadow: 0 0 8px rgba(255, 0, 255, 0.9);
+  -webkit-box-shadow: 0 0 8px rgba(255, 0, 255, 0.9);
+  box-shadow: 0 0 8px rgba(255, 0, 255, 0.9);
+}
+
+/* Custome style */
+.r_slider{
+  margin-bottom: 40px;
+}

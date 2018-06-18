@@ -1,0 +1,2016 @@
+/* General Style */
+.pt-200{
+  padding-top: 200px;
+}
+.s_h{
+	height:500px;
+	overflow:auto;
+}
+	
+.text-white{
+  color:#fff;
+}
+.main_sec{
+  height:600px;
+}
+.btn:focus{
+	outline:0;
+	box-shadow:none;
+}
+
+
+/* Montserrat Fonts */
+@font-face {
+    font-family: 'Montserrat';
+    src: url("./fonts/Montserrat-Black.otf") format("opentype");
+	font-weight: 900;
+	font-style:normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url("./fonts/Montserrat-Bold.otf") format("opentype");
+	font-weight: 700;
+	font-style:normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url("./fonts/Montserrat-ExtraBold.otf") format("opentype");
+	font-weight: 800;
+	font-style:normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url("./fonts/Montserrat-Hairline.otf") format("opentype");
+	font-weight: 100;
+	font-style:normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url("./fonts/Montserrat-Light.otf") format("opentype");
+	font-weight: 300;
+	font-style:normal;
+}
+@font-face {
+    font-family:'Montserrat';
+    src: url("./fonts/Montserrat-Regular.otf") format("opentype");
+    font-weight: 400;
+	font-style:normal;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url("./fonts/Montserrat-SemiBold.otf") format("opentype");
+	font-weight: 600;
+	font-style:normal;
+}
+@font-face {
+    font-family: 'Montserrat';	
+    src: url("./fonts/Montserrat-UltraLight.otf") format("opentype");
+	font-weight:200;
+	font-style:normal;
+}
+
+/* PlayfairDisplay Fonts */
+@font-face {
+    font-family: 'PlayfairDisplay-black';
+    src: url("../fonts/PlayfairDisplay-Black.otf") format("opentype"), url("../fonts/PlayfairDisplay-Black.ttf") format("truetype");
+	font-weight:900;
+	font-style:normal;
+}
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url("../fonts/PlayfairDisplay-BlackItalic.otf") format("opentype"), url("../fonts/PlayfairDisplay-BlackItalic.ttf") format("truetype");
+	font-weight:900;
+	font-style:italic;
+}
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url("../fonts/PlayfairDisplay-Bold.otf") format("opentype"), url("../fonts/PlayfairDisplay-Bold.ttf") format("truetype");
+	font-weight:bolds;
+	font-style:normal;
+}
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url("../fonts/PlayfairDisplay-BoldItalic.otf") format("opentype"), url("../fonts/PlayfairDisplay-BoldItalic.ttf") format("truetype");
+	font-weight:bold;
+	font-style:italic;
+}
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url("../fonts/PlayfairDisplay-Italic.otf") format("opentype"), url(../fonts/PlayfairDisplay-Italic.ttf) format("truetype");
+	font-weight:normal;
+	font-style:italic;
+}
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url("../fonts/PlayfairDisplay-Regular.otf") format("opentype"), url("../fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+	font-weight:regular;
+	font-style:normal;
+}
+
+.bg_image{
+  background-image: url('../images/bg_image.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bg_image:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../images/bg_pattern.png);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.8;
+}
+
+.home_front{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+/* Title Text */
+.title_tag_bottom{
+	color: #000;
+    font-family: 'Montserrat';
+    font-size: 22px;
+	font-weight: 300;
+	font-style:normal;    
+}
+.home_title{
+  padding-left: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 72px !important;  
+  background: -webkit-linear-gradient(#8e25c4, #ff237b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;   
+}
+.title_txt{  
+	position: relative;
+	font-family: 'PlayfairDisplay';
+	font-size: 42px ;
+	margin-bottom: 0;
+	color: #1b1b1b;	
+	font-weight:normal !important;
+	font-style:normal;
+	padding-bottom:25px;
+}
+.title_txt .fa-heart{
+    font-size: 50px;
+    position: relative;    
+    right: 15px;
+}
+.title_tag{
+    font-family: 'PlayfairDisplay';
+    font-size: 62px;
+    margin-bottom: 0;
+    color: #1b1b1b;
+    font-style: italic;
+}
+.bold_font{ 
+    font-family: 'PlayfairDisplay';	
+	margin-bottom: 0;
+	color: #1b1b1b;
+	font-weight:bold;
+	font-style: italic;
+}
+.title_sub{
+  color: #1a1a1a;
+  font-family: 'Montserrat';
+  font-size: 18px;  
+  font-weight:300;
+  padding-bottom: 50px;  
+}
+.btn_outline{
+	font-family: 'Montserrat';
+    color: #1a1a1a !important;
+    font-size: 18px;
+    font-weight: 400;
+    border: 3px solid #000;
+    cursor: pointer;
+    padding: 24px 46px;
+}
+.btn_outline:hover{
+  text-decoration: none;
+   color: #1a1a1a !important;
+}
+.btn_light_outline{
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-style:normal;
+  color: #1a1a1a;
+  font-size: 18px;    
+  width:300px;
+  border: 3px solid #000;  
+  cursor: pointer;
+  border-radius:0;
+  padding:19px 0;
+}
+.btn_light_outline:hover{
+  text-decoration: none;
+  color: #1a1a1a;
+}
+.btn_dark{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 0;
+    cursor: pointer;
+    width: 268px;
+    height: 70px;
+    background: -webkit-linear-gradient(left,#8e25c4, #ff237b);
+    border: 0;
+    padding: 19px;
+}
+.btn_dark:hover, .btn_dark:focus, .btn_dark:active{
+  text-decoration: none;
+  color:#fff;
+  background: -webkit-linear-gradient(left,#8e25c4, #ff237b);
+  background-image: -webkit-linear-gradient(left,#8e25c4, #ff237b) !important;
+}
+.btn_go_back{
+	font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+    color: #1a1a1a;
+    font-size: 18px;    
+    border: 3px solid #000;
+    cursor: pointer;
+    border-radius: 0;
+    padding: 19px;
+	width: 268px;
+    height: 70px;
+}
+.btn_go_back:hover, .btn_go_back:focus{
+	color: #1a1a1a;
+}
+.title_sub_small{
+	color:#515151;
+	font-family: 'Montserrat';		
+	font-size:18px;
+	font-weight: 300;
+	font-style:normal;
+	margin-bottom:0;
+}
+.margin-top-50{
+	margin-top:50px;
+}
+button.btn_outline {
+    background: transparent;
+  	cursor:pointer;
+  	width: 260px;
+}
+
+.click_txt{
+  font-family: 'Montserrat';		
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top:25px;
+  color: #1b1b1b;
+  font-weight: 400;
+  font-style:normal;
+}
+
+
+/* The container */
+.relation_rdo {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 250px;
+    height: 70px;
+}
+
+/* Hide the browser's default radio button */
+.rel_rdo{
+  display: flex;
+  justify-content: center;
+}
+
+.relation_rdo input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+	transition:0.5s ease;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 250px;
+    opacity: 0.8;
+	transition:0.5s ease;
+}
+
+/* On mouse-over, add a grey background color */
+.relation_rdo:hover input ~ .checkmark {
+	transition:0.5s ease;
+    background: linear-gradient(to right, #8e25c4 , #ff237b);
+}
+
+/* When the radio button is checked, add a blue background */
+.relation_rdo input:checked ~ .checkmark {
+	transition:0.5s ease;
+    background: linear-gradient(to right, #8e25c4 , #ff237b);
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: block;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.relation_rdo input:checked ~ .checkmark:after {
+    border-color:#fff;	
+}
+.relation_rdo:hover input ~ .checkmark:after {
+    border-color:#fff;	
+}
+
+/* Style the indicator (dot/circle) */
+.relation_rdo .checkmark:after {
+  top: 15px;
+  left: 50%;
+  width: 14px;
+  border-bottom: 2px solid #c7c7c7;
+  height: 35px;
+  border-right: 2px solid #c7c7c7;
+  transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.first_bg{
+  background-color: #fff;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.second_bg{
+  background-color: #fff;
+}
+.third_bg{
+  background-color: rgba(255, 255, 255, 0.74);
+}
+.four_bg{
+  background-color: #fff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.red_lbl{
+	color: #1b1b1b;
+	font-size: 16px;
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-style: normal;
+	margin: 0;
+	position: absolute;
+	bottom: -60px;
+	opacity:0.5;
+	padding: 0 30px;
+}
+#sort_term{
+  display: block;
+}
+.fp-slidesNav{
+  text-align: center
+}
+
+
+/* Slick Slider CSS */
+.slick-prev{
+	left: -50px;
+}
+.slick-prev, .slick-next{
+	top:60px;
+}
+.slick-prev:before, .slick-next:before{
+	font-size: 40px;
+	color: #000;
+}
+
+/* Slider css */
+.fp-tableCell{
+  vertical-align: top !important;
+  padding-top: 110px !important;
+}
+.slide{
+  position: relative;
+}
+#fullpage{
+  display: none;
+}
+.fp-slidesNav.bottom {
+    bottom: 120px !important;
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+	/* height: 14px; */
+    /* width: 14px; */
+    /* border: 2px solid #7d7d7d; */
+    /* background: transparent; */
+    /* border-radius: 0; */
+	/* margin:0; */
+	/* transition:0.5s ease;*/
+	background:transparent;
+	margin:0;
+	width: 14px;
+    height: 14px;
+	border-radius:0 !important;
+    border-left: 2px solid #7d7d7d;
+    border-right: 2px solid #7d7d7d;    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 20px;
+    -moz-background-size: 100% 20px;
+    background-size: 100% 2px;
+    background-image: -webkit-linear-gradient(left, #7d7d7d 0%, #7d7d7d 100%), -webkit-linear-gradient(left, #7d7d7d 0%, #7d7d7d 100%);
+    background-image: -moz-linear-gradient(left, #7d7d7d 0%, #7d7d7d 100%), -moz-linear-gradient(left, #7d7d7d 0%, #7d7d7d 100%);
+    background-image: -o-linear-gradient(left, #7d7d7d 0%, #7d7d7d 100%), -o-linear-gradient(left, #7d7d7d 0%, #7d7d7d 100%);
+    background-image: linear-gradient(to right, #7d7d7d 0%, #7d7d7d 100%), linear-gradient(to right, #7d7d7d 0%, #7d7d7d 100%);
+}
+#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span{
+	background:transparent;
+	margin:0;
+    width: 14px;
+    height: 14px;
+	border-radius:0 !important;
+    border-left: 2px solid #8e25c4;
+    border-right: 2px solid #ff237b;    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 20px;
+    -moz-background-size: 100% 20px;
+    background-size: 100% 2px;
+    background-image: -webkit-linear-gradient(left, #8e25c4 0%, #ff237b 100%), -webkit-linear-gradient(left, #8e25c4 0%, #ff237b 100%);
+    background-image: -moz-linear-gradient(left, #8e25c4 0%, #ff237b 100%), -moz-linear-gradient(left, #8e25c4 0%, #ff237b 100%);
+    background-image: -o-linear-gradient(left, #8e25c4 0%, #ff237b 100%), -o-linear-gradient(left, #8e25c4 0%, #ff237b 100%);
+    background-image: linear-gradient(to right, #8e25c4 0%, #ff237b 100%), linear-gradient(to right, #8e25c4 0%, #ff237b 100%);	
+}
+#fp-nav ul li a.active span:after, .fp-slidesNav ul li a.active span:after, #fp-nav ul li:hover a span:after, .fp-slidesNav ul li:hover a span:after{
+	content:'';
+	height:4px;
+	width:4px;
+	background-color:red;
+	background: linear-gradient(#8e25c4, #ff237b);
+	position:absolute;
+	top:5px;
+	left:3px;
+}
+#fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span{
+    background:transparent;
+	margin:0;
+    width: 14px;
+    height: 14px;
+	border-radius:0 !important;
+    border-left: 2px solid #8e25c4;
+    border-right: 2px solid #ff237b;    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 20px;
+    -moz-background-size: 100% 20px;
+    background-size: 100% 2px;
+    background-image: -webkit-linear-gradient(left, #8e25c4 0%, #ff237b 100%), -webkit-linear-gradient(left, #8e25c4 0%, #ff237b 100%);
+    background-image: -moz-linear-gradient(left, #8e25c4 0%, #ff237b 100%), -moz-linear-gradient(left, #8e25c4 0%, #ff237b 100%);
+    background-image: -o-linear-gradient(left, #8e25c4 0%, #ff237b 100%), -o-linear-gradient(left, #8e25c4 0%, #ff237b 100%);
+    background-image: linear-gradient(to right, #8e25c4 0%, #ff237b 100%), linear-gradient(to right, #8e25c4 0%, #ff237b 100%);	
+}
+#fp-nav ul li:hover a span, .fp-slidesNav ul li:hover a span{
+	background:transparent;
+	margin:0;
+    width: 14px;
+    height: 14px;
+	border-radius:0 !important;
+    border-left: 2px solid #8e25c4;
+    border-right: 2px solid #ff237b;    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 20px;
+    -moz-background-size: 100% 20px;
+    background-size: 100% 2px;
+    background-image: -webkit-linear-gradient(left, #8e25c4 0%, #ff237b 100%), -webkit-linear-gradient(left, #8e25c4 0%, #ff237b 100%);
+    background-image: -moz-linear-gradient(left, #8e25c4 0%, #ff237b 100%), -moz-linear-gradient(left, #8e25c4 0%, #ff237b 100%);
+    background-image: -o-linear-gradient(left, #8e25c4 0%, #ff237b 100%), -o-linear-gradient(left, #8e25c4 0%, #ff237b 100%);
+    background-image: linear-gradient(to right, #8e25c4 0%, #ff237b 100%), linear-gradient(to right, #8e25c4 0%, #ff237b 100%);	
+}
+
+
+/* Radio Button Custom Style */
+.nav_arrow_parent{
+	position:relative;
+}
+.nav_arrow_parent .nav_arrow{
+    position: absolute;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    top: 65%;
+    margin-bottom: 0;    
+    z-index: 999999;
+}
+.nav_arrow_parent .nav_arrow p{
+	margin-bottom:0;
+}
+.nav_arrow_parent .left_nav_arrow{
+	left:0;
+	color:#928f8f;
+}
+.nav_arrow_parent .right_nav_arrow{
+	right:0;
+	color:#000;
+	cursor: pointer;
+}
+
+.default_rdo_btn {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 60px;
+  width: 400px;
+  margin: 25px auto;
+}
+
+/* Hide the browser's default radio button */
+.default_rdo_btn input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.rdo_chk {
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 64px;
+    width: 384px;
+    background-color: transparent;
+    border: 1px solid #3c3c3c;
+    border-radius: 0;
+    transition: 0.5s ease;
+}
+/* On mouse-over, add a grey background color */
+.default_rdo_btn:hover input ~ .rdo_chk {
+	background: -webkit-linear-gradient(left,#8e25c4, #ff237b);
+	border:0;
+}
+.default_rdo_btn:hover input ~ .radio_label {
+    color:#fff;
+}
+/* When the radio button is checked, add a blue background */
+.default_rdo_btn input:checked ~ .rdo_chk {
+	background: -webkit-linear-gradient(left,#8e25c4, #ff237b);
+	border:0;
+}
+.default_rdo_btn input:checked ~ .radio_label  {
+    color:#fff;
+}
+/* .rdo_chk:after {
+    content: "";
+    position: absolute;
+    display: none;
+} */
+.default_rdo_btn input:checked ~ .rdo_chk:after {
+    display: block;
+}
+.default_rdo_btn .rdo_chk:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+.radio_parent{
+    position: relative;
+}
+.radio_label{
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-style:normal;  
+  color: #000;
+  text-align: center;
+  margin-bottom: 0;
+  position: absolute;
+  left: 50%;
+  top: 18px;
+  font-size: 18px;
+  transform: translate(-50%);
+  width: 100%;
+  padding: 0 30px;
+  font-weight: 500;
+}
+
+
+.chk_w{
+  width: 48%;
+  text-align: left;
+  margin-right: 10px;
+}
+.chk_checkbox{
+  position: relative;
+  display: flex;
+  width: 700px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.chk_parent {
+  display: inline;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  color:#1b1b1b;
+  font-size: 18px;
+  font-family:'Montserrat';
+  font-weight: 400;
+  font-style:normal;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: left;
+}
+
+/* Hide the browser's default checkbox */
+.chk_parent input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.chk_check {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: transparent;
+  border: 2px solid #000;
+  border-radius: 0;
+  transition: 0.5s ease;
+}
+
+/* On mouse-over, add a grey background color */
+.chk_parent:hover input ~ .chk_check {
+    background-color: transparent;
+}
+
+/* When the checkbox is checked, add a blue background */
+.chk_parent input:checked ~ .chk_check {
+    /* background-color: #fff; */
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.chk_check:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.chk_parent input:checked ~ .chk_check:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.chk_parent .chk_check:after {
+    left: 4px;
+    top: 1px;
+    width: 6px;
+    height: 10px;
+    border: solid #000;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.btn_disable{
+    opacity: 0.2;
+    pointer-events: none;
+}
+
+/* Profile Related Matches */
+.related_profile{
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #505050;
+  padding: 16px;
+  margin: 0 auto;
+}
+.users_list{
+  margin: 0 auto;
+  text-align: center;
+  height: 75px;
+  overflow: hidden;
+}
+.profile_img{
+  position: relative;
+  height: 70px;
+  width: 70px;  
+  border-radius: 50%;
+  display: inline-block;
+  float: left;
+  margin-left: 12px;
+}
+.default_usr{
+	border: 2px solid #cccccc;
+	color:#cccccc !Important;
+	font-size:30px;
+	padding-top:8px;
+}
+.profile_img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 2px solid #8f25c3;
+}
+.bottom_txt{
+  float: left;
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 0;
+  margin-top: 8px;
+  font-size:16px;
+  font-family:'Montserrat';    
+  font-weight: 400;
+  font-style:normal;
+  color:#000;
+}
+.active_circle{
+  height: 20px;
+  width: 20px;
+  background-color: #8f25c3;
+  border: 1px solid #8f25c3;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  right: 0;
+}
+.active_circle:after{
+  content: '';
+  width: 7px;
+  border-bottom: 2px solid white;
+  height: 12px;
+  border-right: 2px solid white;
+  transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  position: absolute;
+  top: 2px;
+  left: 6px;
+}
+.skip_txt{
+	font-family:'Montserrat';    
+	font-weight: 400;
+	font-style:normal;
+  text-decoration:underline;
+  color: #8e25c4;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  cursor: pointer;
+  transition:0.5s ease;
+}
+.skip_txt:hover{  
+	color: #8e25c4;
+}
+.religion_rdo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.religion_rdo .default_rdo_btn{
+  margin:16px 24px;
+}
+.more_link{
+  font-size: 18px;
+  font-weight: 500;
+
+}
+.more_link:hover{
+  text-decoration: none;
+  color:#fff;
+}
+
+
+/* Interest Check Box */
+.int_checkbox {
+    margin-bottom: 12px;
+}
+.checkbox_interests{
+  display: flex;
+  flex-wrap: wrap;
+}
+.int_chk_btn {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* height: auto;
+  width: auto;
+  border: 3px solid #fff;
+  padding: 4px 10px;
+  margin-right: 10px;
+  border-radius: 34px;
+  transition: 0.5s ease; */
+}
+.txt_color{
+  height: auto;
+  width: auto;
+  font-family:'Montserrat';    
+  font-size:14px;
+	font-weight: 400;
+	font-style:normal;
+  border: 1px solid #000;
+  color:#000;
+  padding: 16px 10px;
+  margin-right: 10px;  
+  transition: 0.5s ease;
+}
+
+/* Hide the browser's default checkbox */
+.int_chk_btn input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.int_chk {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 50px;
+  transition: 0.5s ease;
+}
+
+/* On mouse-over, add a grey background color */
+.int_chk_btn:hover .txt_color{  
+  background: -webkit-linear-gradient(left,#8e25c4, #ff237b);
+  color: #fff;  
+}
+
+/* When the checkbox is checked, add a blue background */
+.int_chk_btn input:checked ~ .txt_color{  
+  background: -webkit-linear-gradient(left,#8e25c4, #ff237b)!important;
+  color: #fff !important;
+  border:0;
+}
+
+.spec_w{
+  width: 200px;
+  margin: 10px 12px;
+}
+.spec_h{
+  height: 600px;
+  overflow: auto;
+}
+.spec_w .txt_color{
+  width:100%;
+}
+.spec_justify{
+    justify-content: center;
+}
+.detail_tab{
+  width: 50%;
+  margin: 0 auto;  
+}
+.detail_tab p{
+  text-align: right;
+  font-size: 18px;
+  font-weight: 500;
+}
+.txt_area{
+    width: 100%;
+    color: #2d2d2d;
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 0;
+	font-family: 'Montserrat';	
+	font-weight: 300;
+	font-style:normal;
+	font-size:14px;
+}
+.txt_area:focus{
+	background-color:transparent;
+	outline:0;
+	box-shadow:none;
+	border-color:#000;
+}
+
+.info_link{
+	font-family: Montserrat;	
+	font-weight: 600;
+	font-style:normal;
+  color:#2b2b2b;
+  font-size: 14px;
+  border-bottom:1px solid #000;
+}
+.info_link:hover{
+  color:#000;
+  text-decoration: none;
+}
+.detail_sec{
+  width: 548px;
+  margin: 0 auto;
+  margin-bottom:40px;
+}
+.small_text{
+	font-family: 'Montserrat';
+	font-weight: 300;
+	font-style:normal;
+	color:#1b1b1b;
+	font-size:13px;
+}
+
+.ico_part{
+  width: 90px;
+  height: 90px;
+  background-color: transparent;
+  border-radius: 50%;
+  color: #000;
+  font-size: 38px;
+  vertical-align: middle;
+  margin: 10px auto;
+  border: 2px solid #000;
+  position:relative;
+}
+.ico_part .fa{
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.ico_title{
+	color:#1b1b1b;
+    font-family:'Montserrat';    
+    font-weight: 400;
+	font-style:normal;
+  font-size: 18px;
+  text-transform: capitalize;  
+  letter-spacing: 0.9px;
+}
+
+.fade_link{
+    text-decoration: underline;
+  color: #1a1a1a;
+  font-size: 18px;
+  display: block;
+  margin-top: 14px;
+    font-family:'Montserrat';    
+    font-weight: 400;
+	font-style:normal;  
+}
+.fade_link:hover{
+  color:#1a1a1a;
+}
+.font_btm{
+    font-family: 'Montserrat';
+	font-weight: 300;
+	font-style:normal;	
+    font-size: 16px;
+	color:#1a1a1a;
+	width: 637px;
+    margin: 0 auto;
+}
+
+/* Sound SLider Radio */
+.sound_radio {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 148px;
+  width: 215px;
+}
+.txt_slide{
+    margin-bottom: 0;
+    height: 100%;
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 0;
+    transition: 0.5s ease;
+	color:#1b1b1b;
+}
+.txt_slide .fa{
+  font-size: 40px;
+  margin-bottom: 12px;
+  margin-top: 35px;  
+}
+.slide_txt{	
+    font-family:'Montserrat';    
+    font-weight: 400;
+	font-style:normal;	
+    margin-bottom: 0;
+    font-size: 18px;
+}
+.sound_radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.slide_rdo {
+  position: absolute;
+  top: 0;
+  right:0;
+}
+.sound_radio:hover input ~ .txt_slide {    
+	background: -webkit-linear-gradient(left,#8e25c4, #ff237b);
+    color: #fff;
+	border:0;
+}
+.sound_radio input:checked ~ .txt_slide {
+	background: -webkit-linear-gradient(left,#8e25c4, #ff237b);
+    color: #fff;
+	border:0;
+}
+.slide_rdo:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.sound_radio input:checked ~ .slide_rdo:after {
+    display: block;
+}
+.sound_radio input:checked ~ .slide_rdo{
+    background-color: #8f25c3;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    z-index: 999999 !important;
+}
+.sound_radio .slide_rdo:after {
+    width: 8px;
+    border-bottom: 2px solid white;
+    height: 14px;
+    border-right: 2px solid white;
+    transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: absolute;
+    top: 4px;
+    left: 8px;
+}
+.last_txt{
+	font-family: 'PlayfairDisplay';    
+	font-weight:normal;
+	font-style:normal;
+	color:#1b1b1b;
+	font-size:46px;
+}
+.last_txt span{
+	font-family: 'PlayfairDisplay';    
+	font-weight:bold;
+	font-style:italic;
+}
+
+
+
+/* Media Quries */
+@media (min-width:1200px) and (max-width:1400px){
+  .title_tag{
+	font-size:50px;
+  }
+  .title_sub{
+	font-size: 16px;
+	padding-bottom: 30px;
+  }
+  .btn_outline{	
+    padding: 13px 30px;  
+  }
+  .title_txt{
+	  font-size:35px;
+  }
+  .title_sub_small{
+	font-size:17px;
+  }
+  .red_lbl{
+	font-size:14px;
+	bottom: -50px;	 
+  }
+  .btn_light_outline{
+	  width:220px;
+	  padding: 10px 0;
+  }
+  .click_txt{
+	  margin-top:12px;
+  }
+  .default_rdo_btn{
+	  height: 60px;
+	  width: 300px;
+	  margin:20px auto;
+  }
+  .rdo_chk {
+	height: 60px;
+    width: 300px;
+  }
+  .slick-prev {
+    left: -42px;
+   }
+  .self_height{
+    height: 400px;
+    overflow: auto;
+  }
+}
+
+@media (min-width:992px) and (max-width:1199px){
+  .self_height{
+    height: 400px;
+    overflow: auto;
+  }
+  .checkmark{
+    width: 233px;
+  }
+  .red_lbl{
+	font-size: 14px;
+    bottom: -50px;
+  } 
+  .title_tag{
+	font-size: 50px;
+  }
+  .title_sub{
+    font-size:16px;
+	padding-bottom: 35px;
+  }
+  .btn_outline {    
+    font-size: 16px;    
+    padding: 12px 25px;
+  }
+  .title_txt{
+    font-size:32px;
+	padding-bottom:20px;
+  }
+  .title_sub_small {
+    font-size: 20px;
+  }
+  .click_txt {
+    font-size: 14px;
+	margin-top: 12px;
+  }
+  .btn_light_outline {
+    font-size: 17px;
+	width:250px;
+	padding:12px 0;
+  }
+  .default_rdo_btn{
+	height: 54px;
+    width: 284px;
+    margin: 16px auto;
+  }
+  .rdo_chk{
+	 height: 54px;
+    width: 284px;
+  }
+	.radio_label {
+		top: 14px;
+		font-size: 16px;
+	}
+  .chk_check{
+    top: -1px;
+    height: 20px;
+    width: 20px;
+  }
+  .chk_parent {
+    padding-left: 28px;
+    font-size: 16px;
+  }
+  .chk_parent .chk_check:after {
+    left: 5px;
+    top: 1px;
+    width: 6px;
+    height: 12px;
+  }
+	.bottom_txt{
+		margin-top: 15px;
+		font-size: 14px;		
+	}
+	.profile_img{
+		height: 60px;
+		width: 60px;
+		font-size:24px;
+	}
+	.related_profile{
+		padding: 10px;
+	}
+	.users_list{
+		height: 60px;
+	}
+	.txt_color{
+		font-size: 13px;
+		padding: 12px 6px;
+	}
+	.title_tag_bottom{
+		font-size: 18px;
+		margin-bottom: 10px !important;
+	}
+	.active_circle{
+		height: 16px;
+		width: 16px;
+		top: 42px;
+		right: 0;
+	}
+	.active_circle:after{
+		width: 5px;		
+		height: 9px;
+		top: 2px;
+		left: 5px;
+	}
+  .religion_rdo .default_rdo_btn {
+    margin: 10px 24px;
+  }
+  .detail_tab {
+    width: 50%;
+  }
+  .txt_area{
+	  font-size:13px;
+  }
+  .detail_sec{
+	width: 50%;
+  }
+  .ico_part{
+	width: 70px;
+	height: 70px;
+	font-size: 25px;
+  }
+  .ico_title {
+    font-size: 14px;
+  }
+	  .member_opt{
+		padding-bottom: 25px !important;
+	  }
+	  .fade_link{
+		  font-size:14px;
+	  }
+	  .sound_radio{
+		  margin: 0 auto;
+	  }
+	  .slick-prev:before, .slick-next:before{
+		  font-size:30px;
+	  }
+	  .slick-prev{
+		left: -16px;
+	  }
+	  .slick-next {
+			right: -10px;
+     	}
+		.btn_dark, .btn_go_back{
+			font-size:16px;
+			width: 256px;
+			height: 50px;
+			padding: 12px;
+		}
+		.last_txt{
+			font-size:35px;
+		}
+}
+
+@media (min-width:768px) and (max-width:991px){
+	.home_title img{
+		width: 25%;
+	}
+	.title_tag{
+		font-size:35px;
+	}
+	.title_sub{
+		font-size: 16px;		
+		padding-bottom: 40px;
+	}
+	.btn_outline{
+		font-size: 16px;			
+		padding: 15px 30px;
+	}
+  .self_height{
+    height: 450px;
+    overflow: auto;
+  }  
+  .checkmark{
+    width: 173px;
+  }
+  .checkmark, .relation_rdo{
+	height:50px;
+  }
+  .relation_rdo .checkmark:after{
+	top: 15px;
+    left: 50%;
+    width: 9px;    
+    height: 20px;
+  }
+  .red_lbl{
+    font-size: 13px;
+    left: 0;
+    bottom: -45px;
+  }
+  .title_txt{
+	font-size: 30px;
+	padding-bottom: 1rem !important;
+  }
+  .title_sub_small {
+      font-size: 16px;
+  }
+  .click_txt {
+    font-size: 14px;
+  }
+  .detail_sec{
+	  width:60%;
+  }
+  .chk_checkbox{
+	  width:auto;
+  }
+  .btn_light_outline {
+    font-size: 16px;
+	width: 200px;
+	padding: 10px 0;
+	border:2px solid #000;
+  }
+  .radio_label{
+    top: 11px;
+    font-size: 16px;
+  }
+  .rdo_chk, .default_rdo_btn{
+    width: 280px;
+    height: 45px;
+  }
+  .default_rdo_btn{
+	  margin:20px auto;
+  }
+  .int_chk_btn{
+    font-size: 16px;
+  }
+  .txt_color{
+	  padding: 10px 8px;
+	  font-size:12px;
+  }
+  .int_checkbox{
+	  margin-bottom:0;
+  }
+  .chk_check{
+    top: 0px;
+    height: 20px;
+    width: 20px;
+  }
+  .chk_parent {
+    padding-left: 30px;
+    font-size: 16px;
+  }
+  .chk_parent .chk_check:after {
+    left: 5px;
+    top: 1px;
+    width: 6px;
+    height: 12px;
+  }
+  .religion_rdo .default_rdo_btn {
+    margin: 10px 24px;    
+  }
+  .detail_tab {
+    width: 60%;
+  }
+  .ico_title {
+    font-size: 14px;
+  }
+  .ico_part{
+    width: 70px;
+    height: 70px;
+    font-size: 25px;	
+  }
+  .fade_link{
+	  font-size:14px;
+  }
+  .sound_radio{
+	height: 135px;
+    width: 150px;
+    margin: 15px auto;
+  }
+  .slick-prev, .slick-next{
+	  top:70px;
+  }
+  .txt_slide .fa{
+	  font-size:35px;
+  }
+  .font_btm{
+	  font-size:14px;
+  }
+  .last_txt{
+	  font-size: 35px;
+  }
+  .btn_dark, .btn_go_back{
+	width: 240px;
+    height: 50px;
+	padding: 11px;
+	font-size:16px;
+  }
+	.help_mar{
+		margin-bottom: 20px !important;
+	}
+  .slide_txt{
+	  font-size:15px;
+  }
+  .slick-prev {
+     left: -24px;
+  }  
+  .slick-next {
+    right: -10px;
+  }
+  .related_profile{
+	  padding: 8px;
+  }
+  .profile_img{	  
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+	font-size:18px;
+  }
+  .active_circle{
+    height: 15px;
+    width: 15px;
+    top: 33px;
+    right: 0;
+  }
+  .active_circle:after{
+    width: 5px;
+    height: 9px;
+    top: 2px;
+    left: 5px;
+  }
+  .users_list{
+    height: 60px;
+  }
+  .skip_txt{
+	  font-size:14px;
+  }
+  .bottom_txt{
+	  font-size: 13px;
+  }
+  /* SLider Dot icon */
+  .fp-slidesNav ul li:nth-child(1) a span,
+  .fp-slidesNav ul li:nth-child(2) a span,
+  .fp-slidesNav ul li:nth-child(3) a span,
+  .fp-slidesNav ul li:nth-child(4) a span,
+  .fp-slidesNav ul li:nth-child(5) a span,
+  .fp-slidesNav ul li:nth-child(6) a span,
+  .fp-slidesNav ul li:nth-child(7) a span,
+  .fp-slidesNav ul li:nth-child(8) a span,
+  .fp-slidesNav ul li:nth-child(9) a span,
+  .fp-slidesNav ul li:nth-child(10) a span,
+  .fp-slidesNav ul li:nth-child(11) a span,
+  .fp-slidesNav ul li:nth-child(12) a span,
+  .fp-slidesNav ul li:nth-child(13) a span{
+    font-size: 18px;
+  }
+  .fp-tableCell{
+	  padding-top: 50px !important;
+  }
+}
+
+@media (min-width:425px) and (max-width:767px){
+	.home_title img{
+		width:40%;
+	}
+  .title_txt{
+    font-size: 60px;
+    padding-bottom: 1rem !important;    
+  }
+.title_tag_bottom{
+	font-size:16px;
+	margin-bottom:5px !important;
+}
+.txt_area{
+	font-size:13px;
+}
+  .title_tag {
+    font-size: 30px;
+    line-height: 20px;
+  }
+  .title_sub {
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  .btn_outline{
+	font-size: 16px;
+    padding: 10px 30px;
+    border: 2px solid;
+  }
+  .self_height{
+    height: 450px;
+    overflow: auto;
+  }
+  .rel_rdo{
+	  padding-bottom:0 !important
+  }
+  .checkmark, .relation_rdo{
+    width: 100%;
+	height:50px;
+  }
+  .relation_rdo .checkmark:after{
+	width: 8px;    
+    height: 18px;
+  }
+  .red_lbl{
+    font-size: 11px;
+    bottom: -40px;
+    left: 0;
+    padding: 0;
+  }
+  h3.title_txt {
+    font-size: 22px;
+    padding-bottom: 0.5rem !important;
+  }
+  .ico_part{
+	width: 70px;
+    height: 70px;	
+  }
+  .title_sub_small {
+      font-size: 16px;
+  }
+  .click_txt {
+    font-size: 12px;
+	margin-top:15px;
+  }
+  .btn_light_outline {
+    font-size: 16px;
+	padding: 13px 0;
+	width: 220px;
+	border:2px solid #000;
+  }
+  .nav_arrow_parent .nav_arrow{
+	  display:none;
+  }
+  .radio_label{
+    top: 9px;
+    font-size: 14px;
+  }
+  .rdo_chk, .default_rdo_btn{
+    width: 250px;
+    height: 40px;
+  }
+  .skip_txt{
+	font-size:12px;
+	top:10px;
+  }
+  .spec_w {
+    width: 180px;
+    margin: 5px 5px;
+  }
+  .int_chk_btn{
+    font-size: 14px;
+  }
+  .chk_checkbox{
+    width: 100%;
+	padding-bottom: 20px !important;
+  }
+  .chk_w{
+    width: 70%;
+    text-align: left;
+    margin-right: auto;
+    margin: 0 auto;
+  }
+  .chk_check{
+    top: 0px;
+    height: 20px;
+    width: 20px;
+  }
+  .chk_parent {
+    padding-left: 25px;
+    font-size: 14px;
+  }
+  .chk_parent .chk_check:after {
+    left: 6px;
+    top: 1px;
+    width: 6px;
+    height: 12px;
+  }
+  .religion_rdo .default_rdo_btn {
+    margin: 10px 24px;
+    width: 250px;
+  }
+  .int_checkbox{
+	margin-bottom:0 !important;  
+  }
+  .txt_color{
+	  font-size:12px;
+	  padding:9px 5px;
+  }
+  .detail_tab {
+    width: 100%;
+  }
+  .detail_tab p{
+    font-size: 14px;
+  }
+  .detail_sec{
+    width: 100%;
+  }
+  .ico_title {
+    font-size: 13px;
+  }
+  .member_h{
+    height: 450px;
+    overflow: auto;
+  }
+  .member_opt{
+    padding-top: 0rem !important;
+    margin:0;
+  }
+  .profile_img{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+	font-size:18px;
+  }
+  .bottom_txt{
+	  font-size:14px;
+  }
+  .active_circle{
+    height: 15px;
+    width: 15px;
+    top: 33px;
+    right: 0;
+  }
+  .active_circle:after{
+    width: 5px;
+    height: 9px;
+    top: 2px;
+    left: 5px;
+  }
+  .users_list{
+    height: auto;
+    overflow: auto;
+  }
+  .related_profile{
+    height: 93px;
+    overflow: auto;
+  }
+  .sound_radio{
+	height: 110px;
+    width: 130px;
+    margin: 20px auto;
+
+  }
+  .txt_slide .fa {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 23px;
+  }
+  .slide_txt {
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .slick-prev:before, .slick-next:before{
+	  font-size:31px;
+  }
+  .sound_radio input:checked ~ .slide_rdo{
+    width: 25px;
+    height: 25px;
+  }
+  .sound_radio .slide_rdo:after{
+    width: 8px;
+    height: 13px;
+    top: 5px;
+    left: 9px;
+  }
+  .fs-18 {
+    font-size: 16px;
+    padding-top: 16px;
+  }
+  .slick-prev {
+    left: -12px;
+  }
+  .slick-next {
+    right: 4px;
+  }
+  .last_txt{
+	  font-size:28px;
+  }
+  .font_btm{
+	  width:100%;
+	  font-size: 14px;
+  }
+  .btn_dark,.btn_go_back{
+	  font-size: 15px;
+	  width: 220px;
+      height: 50px;
+	  padding:12px;
+  }
+  .fade_link{
+	  font-size:14px;
+  }
+  .fp-tableCell {
+    padding-top: 30px !important;
+  }
+}
+@media (min-width:320px) and (max-width:424px){
+  .home_title img{
+		width:40%;
+	}
+  .title_txt{
+    font-size: 60px;
+    padding-bottom: 1rem !important;    
+  }
+.title_tag_bottom{
+    font-size: 14px;
+    margin-bottom: 10px !important;
+}
+.bold_font{
+	display:block;
+}
+.txt_area{
+	font-size:13px;
+}
+  .title_tag {
+    font-size: 30px;
+    line-height: normal;
+  }
+  .title_sub {
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  .btn_outline{
+	font-size: 16px;
+    padding: 10px 30px;
+    border: 2px solid;
+  }
+  .self_height{
+    height: 450px;
+    overflow: auto;
+  }
+  .rel_rdo{
+	  padding-bottom:0 !important;
+	  display:block;
+  }
+  #fp-nav ul li, .fp-slidesNav ul li{
+	  width:5px;
+  }
+  .checkmark, .relation_rdo{
+    width: 100%;
+	height:50px;
+	font-size:22px;
+	border-radius:5px;
+  }
+  .relation_rdo .checkmark:after{
+	width: 8px;    
+    height: 18px;
+	right:30px;
+	left:unset;
+  }
+  .red_lbl{
+    font-size: 14px;
+    top: 13px;
+    left: 13px;
+    padding: 0;
+    bottom: unset;
+  }
+  h3.title_txt {
+    font-size: 18px;
+    padding-bottom: 1.5rem !important;
+  }
+  .ico_part{
+	width: 70px;
+    height: 70px;	
+  }
+  .title_sub_small {
+      font-size: 14px;
+  }
+  .click_txt {
+    font-size: 12px;
+	margin-top:15px;
+  }
+  .btn_light_outline {
+    font-size: 14px;
+    padding: 8px 0;
+    width: 180px;
+    border: 2px solid #000;
+  }
+  .rangeslider__handle:before{
+	  display:none;
+  }
+  .nav_arrow_parent .nav_arrow{
+	  display:none;
+  }
+  .radio_label{
+    top: 9px;
+    font-size: 14px;
+  }
+  .rdo_chk, .default_rdo_btn{
+    width: 250px;
+    height: 40px;
+  }
+  .skip_txt{
+	font-size:12px;
+	top:10px;
+  }
+  .spec_w {
+    width: 180px;
+    margin: 5px 5px;
+  }
+  .int_chk_btn{
+    font-size: 14px;
+  }
+  .chk_checkbox{
+    width: 100%;
+	padding-bottom: 20px !important;
+  }
+  .chk_w{
+    width: 70%;
+    text-align: left;
+    margin-right: auto;
+    margin: 0 auto;
+  }
+  .chk_check{
+    top: 0px;
+    height: 20px;
+    width: 20px;
+  }
+  .chk_parent {
+    padding-left: 25px;
+    font-size: 14px;
+  }
+  .chk_parent .chk_check:after {
+    left: 6px;
+    top: 1px;
+    width: 6px;
+    height: 12px;
+  }
+  .religion_rdo .default_rdo_btn {
+    margin: 10px 24px;
+    width: 250px;
+  }
+  .int_checkbox{
+	margin-bottom:0 !important;  
+  }
+  .txt_color{
+	  font-size:12px;
+	  padding:9px 5px;
+  }
+  .detail_tab {
+    width: 100%;
+  }
+  .detail_tab p{
+    font-size: 14px;
+  }
+  .detail_sec{
+    width: 100%;
+  }
+  .ico_title {
+    font-size: 13px;
+  }
+  .member_h{
+    height: 450px;
+    overflow: auto;
+  }
+  .member_opt{
+    padding-top: 0rem !important;
+    margin:0;
+  }
+  .profile_img{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+	font-size:18px;
+  }
+  .bottom_txt{
+	  font-size:14px;
+  }
+  .active_circle{
+    height: 15px;
+    width: 15px;
+    top: 33px;
+    right: 0;
+  }
+  .active_circle:after{
+    width: 5px;
+    height: 9px;
+    top: 2px;
+    left: 5px;
+  }
+  .users_list{
+    height: auto;
+    overflow: auto;
+  }
+  .related_profile{
+    height: 93px;
+    overflow: auto;
+  }
+  .sound_radio{
+	height: 110px;
+    width: 130px;
+    margin: 20px auto;
+
+  }
+  .txt_slide .fa {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 23px;
+  }
+  .slide_txt {
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .slick-prev:before, .slick-next:before{
+	  font-size:31px;
+  }
+  .sound_radio input:checked ~ .slide_rdo{
+    width: 25px;
+    height: 25px;
+  }
+  .sound_radio .slide_rdo:after{
+    width: 8px;
+    height: 13px;
+    top: 5px;
+    left: 9px;
+  }
+  .fs-18 {
+    font-size: 16px;
+    padding-top: 16px;
+  }
+  .slick-prev {
+    left: -12px;
+  }
+  .slick-next {
+    right: 4px;
+  }
+  .last_txt{
+	  font-size:23px;
+  }
+  .font_btm{
+	  width:100%;
+	  font-size: 14px;
+  }
+  .btn_dark,.btn_go_back{
+	  font-size: 15px;
+	  width: 220px;
+      height: 50px;
+	  padding:12px;
+  }
+  .fade_link{
+	  font-size:14px;
+  }
+  .fp-tableCell {
+    padding-top: 30px !important;
+  }
+  .spec_h{
+	  height:450px;
+  }
+  .fp-slidesNav.bottom{
+	  bottom:100px !important;
+  }
+}
